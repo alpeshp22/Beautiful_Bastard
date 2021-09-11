@@ -1,0 +1,64 @@
+.collapse-sec{
+    margin-top: 100px;
+}
+.collapse-sec h4,
+.address-sec h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.collapse-sec button.btn{
+    display: block;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 2px;
+    position: relative;
+    border-radius: 0;
+    border-bottom: 2px solid #000;
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.collapse-sec button.btn:after{
+    content: '\f067';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+}
+.address-sec{
+    margin-top: 3rem;
+}
+.address-sec h4{
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+.address-sec p{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+.address-sec p a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+@media (max-width: 575px){
+    .contact-sec .collapse-sec {margin-top: 50px;}
+    .contact-sec .address-sec {margin-bottom: 50px;}
+
+}
+
+
+
+
+
+
+

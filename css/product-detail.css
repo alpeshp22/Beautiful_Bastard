@@ -1,0 +1,173 @@
+.product-detail{
+    margin-top: 100px;
+}
+.product-detail .top-breadcrumb a {
+    font-size: 11px;
+    margin: 0;
+}
+.product-detail .top-breadcrumb a:after {
+    content: "|";
+    margin-left: 2px;
+}
+.details-content{
+    margin-top: 20px;
+    position: sticky;
+    top: 50px;
+}
+/*PRODUCT TITLES*/
+.product-title{
+    margin: 20px 0 30px 0;
+    color: #000;
+}
+.product-title .code{
+    font-size: 10px;
+    color: #000;
+    letter-spacing: 1px;
+}
+.product-title .pro-name{
+    font-size: 17px;
+    color: #000;
+    letter-spacing: 1.5px;
+}
+/*.product-title .pro-name .price{
+    font-size: ;
+    color: ;
+}*/
+
+/* PRODUCT TABS */
+.product-tabs{
+    
+}
+.product-tabs .nav-link {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    padding: 0 10px 5px 10px;
+    border-radius: 0;
+    border-bottom: 5px solid transparent;
+}
+.product-tabs .nav-pills .nav-link.active, 
+.product-tabs .nav-pills .show>.nav-link {
+    color: #BABABA;
+    background-color: transparent;
+    border-bottom-color: #000;
+}
+.product-tabs .address{
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: Gilroy-Regular;
+}
+.product-detail hr{
+    margin: 40px 0;
+}
+
+
+/* PRODUCT COLOR */
+.pro-color span{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+.pro-color .color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: inline-block;
+    margin: 3px;
+    border: 1px solid transparent;
+}
+.pro-color .color.red {background-color: #FF0000;}
+.pro-color .color.black {background-color: #000000;}
+.pro-color .color.white {background-color: #ffffff;border-color:#000}
+
+/* PRODUCT SIZE */
+.pro-size.pro-color span {display: block;margin-top: 20px;}
+.pro-size .color{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    transition: color 0.3s ease;
+}
+.pro-size .color:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/*PRODUCT BUTTONS*/
+.pro-btns {margin-top: 30px;}
+.interested-sec {margin-top: 30px;}
+.interested-slider {display: block!important;}
+
+.interested-heading{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+} 
+.interested-img-content{
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+}
+/*=======================
+    RESPONSIVE VIEW
+=========================*/
+@media (max-width: 575px){
+    .product-detail {margin-top: 40px;}
+    .product-collapse .btn {
+        text-align: left;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        position: relative;
+        color: #000;
+        text-decoration: none;
+        border-bottom: 2px solid #ccc;
+        border-radius: 0;
+        padding-left: 0;
+    }
+    .product-collapse .btn:before{
+       content: '\f067';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: bold;
+        position: absolute;
+        right: 10px;
+        color: #ccc;
+    }
+    /*.product-collapse .btn.collapsed:before{
+        content: '\f068'
+    }*/
+    .product-collapse .btn.share-btn:before{display: none;}
+    .product-collapse .collapse {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .product-title {margin: 70px 0 30px 0;}
+    /* Product slider */
+    .product-slider.owl-carousel .owl-nav button.owl-prev, 
+    .product-slider.owl-carousel .owl-nav button.owl-next {
+        top: -48px;
+        transform: translateY(0);
+    }
+    .product-slider.owl-carousel .owl-nav button.owl-prev {
+        left: inherit;
+        right: 0;
+        margin-right: 22px;
+    }
+    .product-slider .owl-dots {bottom: -38px;}
+    .interested-sec {margin-top: 50px;}
+    .interested-sec .owl-dots {bottom: 70px;}
+}
+

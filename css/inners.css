@@ -1,0 +1,196 @@
+body{
+   /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";*/
+    font-family: SangBleuEmpire-Regular;
+}
+p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.top-breadcrumb {
+    margin-top: 100px;
+}
+.bb-head{
+    margin: 100px auto;
+}
+.bb-head .title{
+    text-align: center;
+    font-size: 91px;
+    border-bottom: 3px solid #000;
+    position: relative;
+    display: table;
+    margin: auto;
+}
+
+.para-head {
+    text-align: center;
+    font-size: 18px;
+    padding: 0 30px;
+}
+.para-head .para-title {
+    line-height: 1;
+    margin-bottom: 28px;
+}
+.maison-slider-sec,
+.maison-banner {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.maison-footer-content{
+    margin-top: 30px;
+    max-width: 768px;
+    text-align: center;
+    font-size: 18px;
+}
+.maison-footer-content p{
+    margin-bottom: 80px;
+}
+.maison-footer-content .btn{
+    padding: 12px 50px;
+}
+
+
+.maison-slider{
+    display: block!important;
+}
+.maison-right-content h4{
+    margin-bottom: 40px;
+}    
+
+/*===============================
+        Journal Page Css
+=================================*/
+.journal-page .date-text{
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: -260px;
+}
+/*===============================
+        Stories Page Css
+=================================*/
+.stories .second-row .maison-right-content{
+    margin-top: 150px;
+}
+.stories .owl-carousel .owl-nav button.owl-prev,
+.stories .owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    outline: none!important;
+    box-shadow: none!important;
+}
+.stories .owl-carousel .owl-nav button.owl-prev span,
+.stories .owl-carousel .owl-nav button.owl-next span{
+    font-size: 60px;
+}
+.stories .owl-carousel .owl-nav button.owl-prev{
+    left: 0px;
+}
+.stories .owl-carousel .owl-nav button.owl-next{
+    right: 0px;
+}
+
+
+/* fixed share */
+.fixed-share{
+   width: 100%;
+   overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 999;
+    padding: 10px;
+}
+.fixed-share ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+}
+.fixed-share ul a{
+    display: inline-block;
+    margin: 5px 15px;
+    text-align: center;
+}
+/*===============================
+        RESPONSIVE VIES
+=================================*/
+/*==1024PX==*/
+@media (max-width: 1024px){
+    .journal-page .date-text {left: -221px;}
+}
+/*==991PX==*/
+@media (max-width: 991px){
+    .journal-page .date-text {left: -184px;}
+}
+/*==767PX==*/
+@media (max-width: 767px){
+    .journal-page .date-text {left: -158px;}
+    .journal-page h3 {font-size: 20px;}
+}
+/*==575PX==*/
+@media (max-width: 575px){
+    .bb-head {
+        margin: 40px auto 80px;
+    }
+    .bb-head .title {
+        font-size: 65px;
+        margin: auto;
+    }
+    .para-head {
+        font-size: 14px;
+        padding: 0;
+    }
+    .para .big-m{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .maison-slider-sec, 
+    .maison-banner {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .maison-footer-content {margin-bottom: 50px;}
+    .maison-slider .owl-dots{
+        display: none;
+    }
+     /*===============================
+            Journal Page Css
+     =================================*/   
+    .journal-page .date-text {
+        top: inherit;
+        left: inherit;
+        /* width: 100%; */
+        position: inherit;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .journal-page h3 {font-size: 24px;}
+    
+    .stories .bb-head .title {
+        font-size: 28px;
+        margin: auto;
+    }
+    .stories .stories-slider {margin-top: 44px;}
+    .stories .maison-right-content {
+        margin-bottom: 0;
+        margin-top: 30px!important;
+    }
+    .stories .col-md-6 img{margin-top: 30px;}
+    .stories .maison-slider-sec, 
+    .stories .maison-banner {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+
+
